@@ -59,11 +59,13 @@ print(mult)
 
 # 8
 m1 = np.random.randint(1, 10, (3, 3))
+print(m1)
 m1_inv = np.linalg.inv(m1)
 print(m1_inv)
 
 # 9
 m1 = np.random.random((4, 4))
+print(m1)
 m1_t = m1.T
 print(m1_t)
 
